@@ -1,0 +1,17 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: lightblue;
+}
+
+.site-title {
+    color: rgb(101, 37, 82);
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
