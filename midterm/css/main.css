@@ -1,0 +1,120 @@
+
+/* General website styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #aad4cf;
+}
+
+/* Website header */
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin: 0;
+    font-size: 40px;
+}
+
+/* Main navigation */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Article image */
+article img {
+    width: 200px;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+/* Main website layout */
+body {
+    max-width: 840px;
+    margin: 0 auto;
+    background-color: #d4e9e7;
+}
+
+html {
+    background-color: #aad4cf;
+}
+
+main {
+    padding: 8px;
+}
+
+/* Contact form styling */
+form {
+    border: 1px solid black;
+    padding: 13px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+form textarea {
+    height: 80px;
+}
+
+/* Radio button styling */
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+fieldset label {
+    display: inline;
+    margin: 0 5px 0 0;
+}
+
+fieldset input[type="radio"] {
+    margin-right: 15px;
+}
+
+/* Website footer */
+footer {
+    text-align: right;
+    padding: 15px 25px;
+}
